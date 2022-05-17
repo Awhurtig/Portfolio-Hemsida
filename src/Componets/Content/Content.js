@@ -26,8 +26,8 @@ const Content = () => {
           alignItems: "center",
         }}
       >
-        <Typography variant="h2">Tjenis Penis detta va Hassan</Typography>
-        <Typography variant="h5">asfdasdfasdfasdfsad</Typography>
+        <Typography variant="h2">Hello My name is Hassan </Typography>
+        <Typography variant="h5">asfdasdfasdadasdasdasdasdfasdfsad</Typography>
         <Button sx={{ border: "solid", color: "#ffffff" }}>Download CV</Button>
       </Box>
       <Box
