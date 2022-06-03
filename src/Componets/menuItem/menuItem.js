@@ -17,7 +17,7 @@ export default function FadeMenu() {
   return (
     <div>
       <Button
-        sx={{ color: "#ffffff" }}
+        sx={{ color: "#d4af37", fontWeight: "Bold" }}
         id="fade-button"
         aria-controls={open ? "fade-menu" : undefined}
         aria-haspopup="true"
@@ -38,7 +38,7 @@ export default function FadeMenu() {
       >
         <MenuItem onClick={handleClose}>Klarna Check out</MenuItem>
         <MenuItem onClick={handleClose}>Tic tac toe</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>Spotify Clone</MenuItem>
       </Menu>
     </div>
   );
